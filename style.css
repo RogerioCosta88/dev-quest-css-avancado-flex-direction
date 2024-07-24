@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    background-color: #ff1430;
+    color: #fff;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px;
+    width: 500px;
+}
+
+h1:hover {
+    background-color: #000;
+    color: #ff1430;
+}
+
+h2 {
+    background-color: #000;
+    color: #fff;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 5px;
+    width: 450px;
+}
+
+h2:hover {
+    background-color: #ff1430;
+    color: #000;
+}
+
+p {
+    font-size: 25px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.container.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.container.row div {
+    background-color: #ff1430;
+    color: #fff;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    font-size: 25px;
+}
+
+.container.row-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.container.row-reverse div {
+    background-color: #ff1430;
+    color: #fff;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    font-size: 25px;
+}
+
+.container.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.container.column div {
+    background-color: #ff1430;
+    color: #fff;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    font-size: 25px;
+}
+
+.container.column-reverse {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.container.column-reverse div {
+    background-color: #ff1430;
+    color: #fff;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    font-size: 25px;
+}
